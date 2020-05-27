@@ -1,3 +1,5 @@
+ -- All code by Yoni Harris
+ 
  SELECT "tbl_Tags".client_id,
     "tbl_Tags".subzone_id,
     ( SELECT max("tbl_Tags".last_seen) AS max) AS last_updated
