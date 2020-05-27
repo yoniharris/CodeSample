@@ -1,4 +1,5 @@
 // ## ZONES JS ROUTE ##
+// ## All code by Yoni Harris ##
 
 // PACKAGES
 const express = require('express');
@@ -27,7 +28,7 @@ io.on('connection', function(socket){
   socket.on('newZoneModal', function(data, socketId){
 
     var q_data = `SELECT public."fn_AddZone"('${systemConfig.application_name}', '${data.zone}','${data.status}', '${data.user}','${data.type}')`;
-    console.log(q_data)
+    
     pool.query(q_data, (err, res) => {
         if (err){ console.log(err); emitFailure(err.message) }
         else { console.log('success'); io.emit("update table zones"); emitSuccess(languageConfig.successMessage) }
