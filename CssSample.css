@@ -1,3 +1,5 @@
+/* All code by Yoni Harris */ 
+
 /* change curser to hand when hover */
 .card-stats, .clickable, .table-hover tr {
   cursor: pointer;
