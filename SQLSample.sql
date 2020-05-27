@@ -1,4 +1,6 @@
  -- All code by Yoni Harris
+ -- Description: PostgreSQL view query which uses multi tenancy table to select tag data
+ -- according the zone.
  
  SELECT "tbl_Tags".client_id,
     "tbl_Tags".subzone_id,
