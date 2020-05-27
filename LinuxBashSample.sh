@@ -1,6 +1,9 @@
 #!/bin/bash 
 
-## All code by Yoni Harris
+## All code by Yoni Harris ##
+
+## Description: The bash script controles the network RFID readers 
+## and saves data to csv
 
 ## Main functions for in/out movements of bats in colony ##
 
