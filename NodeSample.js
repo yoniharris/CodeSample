@@ -1,6 +1,9 @@
 // ## ZONES JS ROUTE ##
 // ## All code by Yoni Harris ##
 
+// ## Description: Backend script which uses Socket.IO to send and receive
+// ## data to populate datatables from PostgreSQL DB through routes
+
 // PACKAGES
 const express = require('express');
 const pool = require('../db');
