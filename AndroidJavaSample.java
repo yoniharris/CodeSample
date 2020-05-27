@@ -1,5 +1,9 @@
 // ## All code by Yoni Harris ##
 
+// Description: The activities build UI for native app to scan RFID UHF
+// passive tags with Android dedicated device. Once the tags are scanned the data is sent
+// securely to web app (AWS RDS DB).
+
 public class MainActivity extends AppCompatActivity {
 
     // local vars
