@@ -2,17 +2,17 @@
 
 **GENERAL INFO**
 
-    1.  The KATS platform by Readbee ltd. is designed to monitor and track physical inventory across the globe.
+    1.  The - platform by - is designed to monitor and track physical inventory across the globe.
         The folowing information includes explanation of the local libraries and functions throughout the platform.
 
-        Please read carefully and contact info@read-bee.com for any inquries.
+        Please read carefully and contact - for any inquries.
 
     
 **A. INSTALLATION STEPS**
 
       1. Install: Ubuntu, Git, Nodejs, libpq-dev, psql 11, xdotool, chromium, pgadmin.
       2. Clone repos: cdm, kats.
-      3. User in psql: username: postgres, pass: adminrfid2019.
+      3. User in psql: username: -, pass: -.
       4. Import db.
       5. Optional: Nginx.
       6. Install pm2 from npm.
