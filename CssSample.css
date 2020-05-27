@@ -1,0 +1,37 @@
+/* change curser to hand when hover */
+.card-stats, .clickable, .table-hover tr {
+  cursor: pointer;
+}
+
+/* search col for datatable style */
+.column_filter[type="text"] {
+  display: block;
+  height: 24px;
+  font-size: 14px;
+  margin: 0 0 20px;
+  padding: 8px 12px 10px 12px;
+  border: 0px solid rgba(0,0,0,.5);
+  background: rgba(0,0,0,.25);
+}
+
+/* datatable proccessing text */
+.dataTables_processing {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 40px;
+  margin-left: -50%;
+  margin-top: -25px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: white !important;
+  opacity: 85% !important;
+}
+
+/* system info main card*/
+.systemInfo {
+  font-size: 14px;
+}
